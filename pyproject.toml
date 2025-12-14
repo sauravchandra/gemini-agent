@@ -59,9 +59,9 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sachandr/gemini-agent"
-Documentation = "https://github.com/sachandr/gemini-agent#readme"
-Repository = "https://github.com/sachandr/gemini-agent"
+Homepage = "https://github.com/sauravchandra/gemini-agent"
+Documentation = "https://github.com/sauravchandra/gemini-agent#readme"
+Repository = "https://github.com/sauravchandra/gemini-agent"
 
 [project.scripts]
 gemini-agent-server = "gemini_agent.server.app:run"
