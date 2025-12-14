@@ -80,5 +80,5 @@ target-version = "py311"
 
 [tool.setuptools_scm]
 write_to = "gemini_agent/_version.py"
-version_scheme = "guess-next-dev"
-local_scheme = "node-and-date"
+version_scheme = "release-branch-semver"
+local_scheme = "no-local-version"
