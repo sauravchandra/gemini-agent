@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gemini-agent"
+name = "gemini-cli-agent"
 dynamic = ["version"]
 description = "Python wrapper for Google's Gemini CLI agentic capabilities"
 readme = "README.md"
@@ -55,7 +55,7 @@ dev = [
 
 # All features
 all = [
-    "gemini-agent[server]",
+    "gemini-cli-agent[server]",
 ]
 
 [project.urls]
